@@ -26,8 +26,9 @@ public class JetApp {
 		int option = kb.nextInt();
 		switch (option) {
 		case 1:
-			String myFile = "jets.txt";
-			System.out.println(myFile);
+		//	AirField[] Jet = new AirField[5];
+//			String myFile = "jets.txt";
+//			System.out.println(myFile);
 			inMenu = true;
 			break;
 		case 2:
