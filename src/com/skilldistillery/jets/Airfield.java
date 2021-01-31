@@ -1,39 +1,16 @@
-package com.skilldistillery.jets;
+//package com.skilldistillery.jets;
+//
+////import java.Jets;
+//
+//public class Airfield {
+//	String myFile = "jets.txt";
+//	
+//	Jet[] jets = new Jet[5];
+//	//String[] jets = {"plane1", "plane2", "plane3", "plane4", "plane5"};
+//	public void cargoPlane(Plane, speed, range, price) {
+//		jets[0] = cargoPlane;
+//		
+//	}
+//	
+//}
 
-public class Airfield {
-
-	private String name;
-	private double speed;
-	private int range;
-	private long price;
-	
-	public Airfield() {}
-	public Airfield(String name, double speed, int range, long price) {
-	
-	}
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public double getSpeed() {
-		return speed;
-	}
-	public void setSpeed(double speed) {
-		this.speed = speed;
-	}
-	public int getRange() {
-		return range;
-	}
-	public void setRange(int range) {
-		this.range = range;
-	}
-	public long getPrice() {
-		return price;
-	}
-	public void setPrice(long price) {
-		this.price = price;
-	}
-	
-}
