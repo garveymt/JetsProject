@@ -2,6 +2,7 @@ package com.skilldistillery.jets;
 
 import java.util.Scanner;
 
+
 public class JetApp {
 	static Scanner kb = new Scanner(System.in);
 
@@ -26,9 +27,8 @@ public class JetApp {
 		int option = kb.nextInt();
 		switch (option) {
 		case 1:
-		//	AirField[] Jet = new AirField[5];
-//			String myFile = "jets.txt";
-//			System.out.println(myFile);
+			
+			
 			inMenu = true;
 			break;
 		case 2:
@@ -40,7 +40,6 @@ public class JetApp {
 			inMenu = true;
 			break;
 		case 4:
-			
 			inMenu = true;
 			break;
 		case 5:
