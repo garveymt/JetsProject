@@ -32,6 +32,10 @@ public abstract class Jet {
 		this.price = price;
 	}
 	
+	public String toString() {
+		return name + speed + range + price;
+	}
+	
 //	public Jet() {}
 //	public Jet(String name, double speed, int range, long price){
 //		this.name = name;

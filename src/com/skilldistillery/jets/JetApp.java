@@ -27,8 +27,14 @@ public class JetApp {
 		int option = kb.nextInt();
 		switch (option) {
 		case 1:
-			
-			
+			Airfield[] jets = new Airfield[5];
+			Airfield jet = new Airfield();
+			jets[0] = jet;
+			System.out.println(jets[0]);
+			System.out.println(jets[1]);
+			System.out.println(jets[2]);
+			System.out.println(jets[3]);
+			System.out.println(jets[4]);
 			inMenu = true;
 			break;
 		case 2:
